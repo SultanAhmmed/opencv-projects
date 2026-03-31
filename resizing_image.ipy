@@ -1,0 +1,15 @@
+# Resizing
+import os
+import cv2
+
+
+img = cv2.imread(os.path.join('.','data','bird_image.jpg'))
+
+resized_image = cv2.resize(img, (84, 150))
+
+print(img.shape)
+print(resized_image.shape)
+
+cv2.imshow('Image',img)
+cv2.imshow('Resized Image', resized_image)
+cv2.waitKey(0)
