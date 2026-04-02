@@ -1,4 +1,4 @@
-OpenCV Basics Project
+#cv-with-opencv
 
 
 - Input and output images, videos, webcam
